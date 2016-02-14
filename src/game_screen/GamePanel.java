@@ -99,9 +99,6 @@ public class GamePanel extends JPanel implements MouseListener,
 				setCursor(blankCursor);
 				repaint();
 				if (lines.size() < level) {
-					int x = randomInt();
-					int y = randomInt();
-
 				
 					if (level % 2 == 0) {
 						int x1 = randomInt();
