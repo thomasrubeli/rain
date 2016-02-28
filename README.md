@@ -1,4 +1,4 @@
 rain
 ====
 
-Minimalistic Java game
+Minimalist Java game
