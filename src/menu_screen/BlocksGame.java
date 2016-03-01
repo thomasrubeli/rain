@@ -31,7 +31,7 @@ public class BlocksGame extends JFrame implements KeyListener {
 		add(menu);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		addKeyListener(this);
-		music = new MusicThread("Fake_Moon_Flight_(Original_Mix).wav");
+		music = new MusicThread("assets/music/gone.ogg");
 		setResizable(false);
 		pack();
 		setVisible(true);

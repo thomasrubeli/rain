@@ -47,14 +47,14 @@ public class GamePanel extends JPanel implements MouseListener,
 	public static int sphere_cons = 10;
 	private int insideSphere = 0;
 	private int lifes;
-	private CoinSound coins = new CoinSound("sound_effects/coin_sound.wav");
-	private LifeLost lifeLost = new LifeLost("sound_effects/lost_life.wav");
-	private CoinSound2 coins2 = new CoinSound2("sound_effects/coin_sound2.wav");
+	private CoinSound coins = new CoinSound("assets/sound_effects/coin_sound.ogg");
+	private LifeLost lifeLost = new LifeLost("assets/sound_effects/lost_life.ogg");
+	private CoinSound2 coins2 = new CoinSound2("assets/sound_effects/coin_sound2.ogg");
 	// private LifeGained lifeGained=new
 	// LifeGained("sound_effects/life_gained.wav");
 	private SizeIncreased size = new SizeIncreased(
-			"sound_effects/size_increased.wav");
-	private DeathSound death = new DeathSound("sound_effects/death.wav");
+			"assets/sound_effects/size_increased.ogg");
+	private DeathSound death = new DeathSound("assets/sound_effects/death.ogg");
 	private boolean soundEffects;
 	private BlocksGame main;
 	private Cursor blankCursor;

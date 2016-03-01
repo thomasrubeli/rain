@@ -8,10 +8,9 @@
 # Specific Files #
 *.txt
 *.wav
-sound_effects
 bin
 .settings
 .classpath
 .project
-
+/lib
 
